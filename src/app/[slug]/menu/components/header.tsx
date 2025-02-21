@@ -14,7 +14,7 @@ const RestaurantHeader = ({ restaurant }: RestaurantHeaderProps) => {
   const router = useRouter();
   const handleBackClick = () => router.back;
   return (
-    <div className="h- relative h-[250px] w-full">
+    <div className="h- relative min-h-[300px] w-full">
       <Button
         variant="secondary"
         size="icon"
